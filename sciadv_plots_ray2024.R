@@ -192,7 +192,8 @@ p2<-ggplot(dat4a, aes(x = Year_Month, y = value, color = factor(variable))) +
   theme(axis.title = element_text(size = 14)) + 
   theme_classic(base_size = 14)+
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=0.5)) +
-  theme(legend.position="top")
+  theme(legend.position="top") +
+  theme(footnote="bottom")
 
 ggsave("newfig3_ray2024.pdf", p2, width = 9, height = 6, dpi = 300)
 
