@@ -13,10 +13,10 @@ pacman::p_load(
   extrafont)
 
 # read file
-read.csv(dataframe)
+read_csv(dataframe)
 
 # read another one
-read.csv(dataframe2)
+read_csv(dataframe2)
 
 #getting needed font
 font_import()
