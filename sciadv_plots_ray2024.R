@@ -12,6 +12,9 @@ pacman::p_load(
   reshape2,
   extrafont)
 
+# read file
+read.csv(dataframe)
+
 #getting needed font
 font_import()
 loadfonts(device = "pdf")
