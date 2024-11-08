@@ -15,6 +15,9 @@ pacman::p_load(
 # read file
 read.csv(dataframe)
 
+# read another one
+read.csv(dataframe2)
+
 #getting needed font
 font_import()
 loadfonts(device = "pdf")
